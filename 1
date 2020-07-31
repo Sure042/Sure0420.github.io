@@ -1,0 +1,13 @@
+$ cd PARENT-FOLDER
+$ git init REPOSITORY-NAME
+> Initialized empty Git repository in /Users/octocat/my-site/.git/
+# Creates a new folder on your computer, initialized as a Git repository
+$ cd REPOSITORY-NAME
+# Changes the working directory
+$ mkdir docs
+# Creates a new folder called docs
+$ cd docs
+$ git checkout --orphan gh-pages
+# Creates a new branch, with no history or contents, called gh-pages and switches to the gh-pages branch
+$ jekyll VERSION new .
+# Creates a Jekyll site in the current directory
